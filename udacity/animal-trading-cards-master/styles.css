@@ -1,0 +1,33 @@
+/* add your CSS here */
+.box{
+    width:450px;
+
+    border:1px solid #cecece;
+    padding:15px;
+    box-shadow: 10px 10px 5px #e6e6e6;
+}
+h3{
+    font-weight:bold;
+}
+img{
+    margin-bottom:0px;
+}
+.textbox{
+    margin-top:20px;
+    width:410px;
+    height:310px;
+    border:1px solid #cecece;
+    padding:20px;
+
+}
+.textbox ul{
+    list-style:none;
+    padding:0;
+
+}
+.textbox span{
+    font-weight:bold;
+}
+p{
+    margin:0;
+}
