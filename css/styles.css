@@ -1,10 +1,22 @@
 img{
     max-width: 100%;
 }
+a{
+    text-decoration: none;
+    color:inherit;
+}
 .{
     box-sizing: content-box;
 }
 
+.main, .header, .featured{
+    margin-left:auto;
+    margin-right:auto;
+}
+.work{
+    margin-left:auto;
+    margin-right:auto;
+}
 .logo{
     width:40px;
     height:40px;
@@ -28,39 +40,33 @@ img{
     margin-bottom: 20px;
     font-size:2em;
 }
+#w1, #w2, #w3{
+    width: 100%;
+    display:inline-block;
+    margin-left:10px;
+    margin-right:10px;
+    text-align:center;
+}
+#w1 p, #w2 p, #w3 p{
+    text-transform:uppercase;
+    font-weight:bold;
+}
 
 @media screen and (min-width: 700px){
-    .header-text {
-        display:inline-block;
-        text-align: right;
-    }
-
-    .logo {
-            display:inline-block;
-            text-align: left;
+    #w1, #w2, #w3{
+        width: 45%;
     }
 }
 
 @media screen and (min-width: 1024px){
     .main, .header, .featured{
         width:1000px;
-        margin-left:auto;
-        margin-right:auto;
     }
     .work{
         width:1000px;
-        margin-left:auto;
-        margin-right:auto;
     }
     #w1, #w2, #w3{
         width: 30%;
-        display:inline-block;
-        margin-left:10px;
-        margin-right:10px;
-        text-align:center;
-    }
-    #w1 img, #w2 img, #w3 img{
-        /* width: 50%; */
     }
 }
 
